@@ -24,33 +24,29 @@ Hopefully, this will give you a better understanding of the content I am going t
 
 ## The present in a nutshell
 
-I am a _24 years_ old **Hungarian** from **Romania** based in Stockholm*,* **Sweden**. A lot of different cultures in one sentence, right?
+My brain has been exploding with innovating ideas every once in a while, due to me questioning the technology's impact on us and our environment.
 
-Currently, I work at [**Relatable**](https://bit.ly/2WQyMOn), a digital marketing agency where we turn influencer marketing into a global scalable media channel.
+Currently, I am launching PackOwnBox as a product which will change online package deliveries. Each product delievered whether in a cardboard box and plastic or perforated bags has an impact.
 
-My main responsibility at Relatable is developing our product, mostly contributing with my _coding_ skills, but there are times when I branch out and make some _designs_, have some _sales_ meetings or just _drive_ around cars around Sweden. to make the campaign puzzle work.
+I have been involved with some of the best teams in the world and have worked with Startups and Big Tech giants. It has been a great journey to hold different job titles which has given me an advantage over many of my peers.
 
-Thanks to not being tied to my desk all the time, I can do my work **wherever** there is a decent internet connection, given that I also have my laptop with me. This allows me to **travel** and **work\*\***remotely\*\* at the same time, for which I am extremely \*_grateful\\_\*. Don't be afraid to come and say hi if you catch me in any coffee shop or co-working space. I am happy to chat most of the times.
+I am trying to cut back on my habit of working long hours so I am not tied to my desk, car or closet. I do **travel** a lot and would love to **work\*\***remotely\*\* because traveling and meeting different people open up your mind to user empathy. Learning different cultures and their setting is extremely important when designing at a global scale.
 
 ## How did I get to this point?
 
-Originally I am from [**Kézdivásárhely**](https://bit.ly/2zEJCNE), Romania, a small town with approximately _18000_ people living there. After graduation from high school, I've moved to [**Cluj**](https://bit.ly/2zEJFJk)to take my studies to the next level**.**
+I am from NYC and currently reside in Midtown, NY (right by the Time Square). Those who have been to the area understand how powerful this place is for designers. Multi Culture, language and tourists from all over the world adds more to the perspective. The place is full with Entertainment, Design Inspirations and going beyond Globalization and localization. I feel fortunate to find all types of users at one place.
 
-That's where I've started tapping into the energy of big cities, even though the city seemed big only because I was coming from a tiny one. My perspective about the world widened a lot during the 4 years I've stayed there.
+While switching my career and job, I learned about different users, needs and domains. I loved observing how one department interacted with the application versus the others. Once internal business functions were understood, I expanded my research into the end users and their interactions. It was mind-blowing to find out that internal users were not trained well on the new features of the application. This help me conclude that perhaps silos approach needs to be broken and we should have users available from all LOB. I also found that just having team managers didnt contribute much to the product but also adding team members added more value.
 
-While living in Cluj, I realized the vast amount of opportunities the internet has created. It was exciting to discover that we can learn almost anything online, we just need to dedicate time and energy to it. From that moment I started to read non-fiction, consume more educational content and absorb tons of information about coding.
-
-During my studies, I also got into exploring different countries and not being afraid of doing it alone. Everything started with a programming course in Bosnia and Hercegovina, organized by the local [BEST group](https://bit.ly/2zJK90I). On that trip, I was so inspired by everything I've seen and experienced, that I've decided that I want to have more of those adventures, **much more**.
-
-Fast forward a couple of months and a lot of trips all over Europe, I graduated from university in the summer of 2017. I did not see the reason why I should pursue getting a masters degree, so I decided that now is the time to try living abroad and I've started to look for opportunities throughout Europe. Long story short, I found [Relatable](https://bit.ly/2WQyMOn) and relocated to the gorgeous city of Stockholm.
+Fast forward I am not just a strategist, developer, QA or Po, I am also a user of many products. I have built a habit of researching my topics well and testing products with the real users have contributed to making me a strong UX Designer. As I continue my journey, there is a lot to learn and grow into this field. I am currently building my own product "PackOwnBox" which has embedded user empathy to its core, however, very open to a good opportunity that comes my way.
 
 ## What about my free time?
 
-I like to choose activities which add value to the world, be that to someone else or to me. I try to refrain from things which drain my energy, make me feel bad or does not align with my long term vision. I fail at this sometimes though, but I am trying my best.
+I like to choose activities which helps me gain a new perspective. I try to refrain from things which drain my energy, make me feel bad or does not align with my long term vision. I fail at this sometimes though, but I am trying my best.
 
-I really enjoy reading, usually non-fiction, for example. If a book catches my attention, I will put it on my list, no matter the topic. However, my favorites are about psychology, business, self-improvement, coding, finance, history, and health. I like to read only one book at a time and learn about the given topic from a couple of different sources.
+I really enjoy reading, usually non-fiction, for example. If a book catches my attention, I will put it on my list, no matter the topic. However, my favorites are about psychology, business, self-improvement, coding, tech based and design. I like to read only one book at a time and learn about the given topic from a couple of different sources.
 
-I also have a passion for photography. As I usually travel with only one backpack, I don't have a professional camera. I am using mostly a phone and recently a drone to snap pictures and express my creativity. You can check out some of my pictures on [Instagram](https://bit.ly/2zEJNbM), let me know in the comments what do you think about them.
+I also have a passion for traveling and taking pictures. I dont like to carry too much of equipments but definitely my wide angeled, fisheye and a cell phone. I love capturing pictures of places, people , cultural events, food and local markets.
 
 Searching for new destinations to explore. Once I've got bitten by the travel bug, it is hard to go back. I keep finding myself on Skyscanner checking out flights, on Airbnb planning the next trip or just trying to find the best itinerary for a future adventure all the time.
 

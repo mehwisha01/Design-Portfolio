@@ -4,7 +4,7 @@ import Image, { FixedObject } from "gatsby-image";
 
 import { SiteSiteMetadataAuthor } from "graphql-types";
 import { rhythm } from "../../utils/typography";
-import { yearsSince } from "../../utils/timeSince";
+//import { yearsSince } from "../../utils/timeSince";
 import { device } from "../../styles/constants";
 import { useAvatar } from "../../hooks";
 
@@ -24,22 +24,22 @@ const About: React.FunctionComponent<AboutProps> = ({
       <Description>
         <h4>Hey there my friend!</h4>
         <p>
-          My name is {author.name}, and I am {yearsSince(author.birthDate)}{" "}
-          years old. I have a passion for products having constructive effects
-          on our lives, and I love to be involved in the development of
+          My name is {author.name}, and I am a veteran Developer and UX
+          Designer. I have a passion for products having constructive effects on
+          our lives, and I love to be involved in the design and development of
           purposeful applications.
         </p>
 
         <p>
           I contribute to the product life cycle with my comprehensive skills in
-          web development, my growing knowledge of behavioral sciences and human
-          psychology, and my neverending hunger for growth.
+          web design and development, my growing knowledge of UX and interaction
+          design, and my neverending hunger for growth.
         </p>
 
         <p>
           When not building stuff, I love to explore, read fascinating books,
           learn languages, write about my experiences in life, have amazing
-          dinners and meet interesting people. I am also obsessed with building
+          trips and meet interesting people. I am also obsessed with building
           positive habits. I believe they are the keys to unlock our full
           potential.
         </p>

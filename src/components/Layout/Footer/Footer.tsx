@@ -8,7 +8,7 @@ const Footer: React.FunctionComponent = (): React.ReactElement => (
   <Root>
     <CTA>Reach out to me on your favorite social :)</CTA>
     <Social className="footer_social" />
-    <CopyRight>© 2019 robertistok</CopyRight>
+    <CopyRight>© 2020 MehwishAziz</CopyRight>
   </Root>
 );
 
