@@ -1,11 +1,4 @@
-import {
-  FaAt,
-  FaLinkedin,
-  FaTwitter,
-  FaGithub,
-  FaMedium,
-  FaGoodreadsG,
-} from "react-icons/fa";
+import { FaAt, FaLinkedin, FaGithub, FaGoodreadsG } from "react-icons/fa";
 import { IconType } from "react-icons/lib/cjs";
 
 interface PredefinedLinkValue {
@@ -27,17 +20,7 @@ const SOCIALS: { [key: string]: PredefinedLinkValue } = {
     Icon: FaGithub,
     title: "GitHub",
   },
-  medium: {
-    baseUrl: "https://medium.com",
-    Icon: FaMedium,
-    title: "Medium",
-  },
-  twitter: {
-    baseUrl: "https://twitter.com",
-    Icon: FaTwitter,
-    title: "Twitter",
-    hoverColor: "#08a0e9",
-  },
+
   goodreads: {
     baseUrl: "https://goodreads.com",
     Icon: FaGoodreadsG,
