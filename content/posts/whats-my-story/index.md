@@ -34,7 +34,7 @@ I am trying to cut back on my habit of working long hours so I am not tied to my
 
 ## How did I get to this point?
 
-I am from NYC and currently reside in Midtown, NY (right by the Time Square). Those who have been to the area understand how powerful this place is for designers. Multi Culture, language and tourists from all over the world adds more to the perspective. The place is full with Entertainment, Design Inspirations and going beyond Globalization and localization. I feel fortunate to find all types of users at one place.
+I am from NYC and currently reside in Midtown, NY (right by the Times Square). Those who have been to the area understand how powerful this place is for designers. Multi Culture, language and tourists from all over the world adds more to the perspective. The place is full with Entertainment, Design Inspirations and going beyond Globalization and localization. I feel fortunate to find all types of users at one place.
 
 While switching my career and job, I learned about different users, needs and domains. I loved observing how one department interacted with the application versus the others. Once internal business functions were understood, I expanded my research into the end users and their interactions. It was mind-blowing to find out that internal users were not trained well on the new features of the application. This help me conclude that perhaps silos approach needs to be broken and we should have users available from all LOB. I also found that just having team managers didnt contribute much to the product but also adding team members added more value.
 
