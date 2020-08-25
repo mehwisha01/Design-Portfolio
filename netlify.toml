@@ -5,8 +5,4 @@
 [build.environment]
   NODE_VERSION = "12"
   YARN_VERSION = "1.22.4"
-<<<<<<< HEAD
   YARN_FLAGS = "--no-ignore-optional"
-=======
-  YARN_FLAGS = "--no-ignore-optional"
->>>>>>> b97f2879489bc0c2b60fa364fdc10bb266645ff9
