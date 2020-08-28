@@ -59,7 +59,7 @@ const About: React.FunctionComponent<AboutProps> = ({
         <p> Feel Free to leave me a message: </p>
         <p>
           <form
-            name="contact"
+            name="contact-form"
             method="POST"
             data-netlify="true"
             netlify-honeypot="bot-field"
