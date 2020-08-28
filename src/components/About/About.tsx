@@ -25,7 +25,7 @@ const About: React.FunctionComponent<AboutProps> = ({
       <Description>
         <h4>Hey friend!</h4>
         <p>
-          My name is {author.name}, and I am a veteran Developer and UX
+          My name is {author.name}, and I am a veteran Developer and a UX
           Designer. I have a passion for products having constructive effects on
           our lives, and I love to be involved in the design and development of
           purposeful applications.
