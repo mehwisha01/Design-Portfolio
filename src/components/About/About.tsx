@@ -8,7 +8,7 @@ import { rhythm } from "../../utils/typography";
 import { device } from "../../styles/constants";
 import { useAvatar } from "../../hooks";
 import GatsbyImage from "gatsby-image";
-import handleSubmit from "src/pages/contact";
+
 interface AboutProps {
   author: SiteSiteMetadataAuthor;
 }
@@ -48,7 +48,13 @@ const About: React.FunctionComponent<AboutProps> = ({
         <p>
           Do you want to find out more about me? Please shoot me an email at{" "}
           <strong>{author.social.email}</strong> or reach out to me on social
-          media, listed below
+          media, listed below.{" "}
+        </p>
+        <p>
+          (Psst... I am{" "}
+          <em>
+            <Link to="/resume">open to new adventures</Link>.)
+          </em>
         </p>
         <p> Feel Free to leave me a message: </p>
         <p>
