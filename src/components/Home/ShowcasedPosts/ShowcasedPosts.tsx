@@ -43,7 +43,7 @@ const Home: React.FunctionComponent<HomeProps> = ({
       <ShowcasedPostsContainer
         location={location}
         posts={latestPosts}
-        title="Latest ⌛️"
+        title="Case Studies ⌛️"
       />
       {featuredPosts.length > 0 && (
         <ShowcasedPostsContainer

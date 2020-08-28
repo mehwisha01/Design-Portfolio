@@ -40,7 +40,7 @@ const Header: React.FunctionComponent<HeaderProps> = ({
             {showBackNav ? (
               <FaArrowLeft />
             ) : (
-              author.social.twitter.toLowerCase()
+              author.social.linkedin.toLowerCase()
             )}
           </Link>
         </Title>
