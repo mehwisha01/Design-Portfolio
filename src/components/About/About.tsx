@@ -48,14 +48,11 @@ const About: React.FunctionComponent<AboutProps> = ({
         <p>
           Do you want to find out more about me? Please shoot me an email at{" "}
           <strong>{author.social.email}</strong> or reach out to me on social
-          media, listed below or fill out your information and I will get back
-          to you ASAP.
-          <form
-            name="contact"
-            method="post"
-            data-netlify="true"
-            data-netlify-honeypot="bot-field"
-          >
+          media, listed below
+        </p>
+        <p> Feel Free to leave me a message: </p>
+        <p>
+          <form name="contact" method="POST" data-netlify="true">
             <p>
               <label>
                 <input type="text" placeholder="Your Name" name="name" />
