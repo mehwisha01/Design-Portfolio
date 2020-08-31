@@ -28,7 +28,7 @@ Founder and CEO - Product UX Designer
 
 ### Problem Statement
 
-In 2016, it cost New York City \$18 per ton more to collect and process recyclables. Yet, companies are still delivering packages in bigger than product's size adding additonal waste. In 2020, we want consumer to have sustainable delivery options.
+In 2016, it cost New York City \$18 per ton more to collect and process recyclables. Yet, companies are still delivering packages in bigger than product's size boxes adding additonal waste. In 2020, we want consumer to have sustainable delivery options.
 
 ### Description
 

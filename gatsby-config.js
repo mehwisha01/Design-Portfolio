@@ -74,6 +74,7 @@ module.exports = {
         icon: `content/assets/${siteConfig.siteMetadata.author.assets.icon}`,
       },
     },
+
     "gatsby-plugin-offline",
     "gatsby-plugin-react-helmet",
     {
