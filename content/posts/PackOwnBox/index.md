@@ -32,7 +32,12 @@ In 2016, it cost New York City \$18 per ton more to collect and process recyclab
 
 ### Description
 
-Since Packages ordered through online retailers are creating an additional waste, I would like to explore this opportunity to have Eco-Friendly shipping material and methods while showing consumer the order index impact by making sustainable choices. Consumers will be able to pack their own packages to reduce the waste impact. 
+Since Packages ordered through online retailers are creating an additional waste, I would like to explore this opportunity to have Eco-Friendly shipping materials and methods while showing consumer the order index impact by making sustainable choices. Consumers will be able to pack their own packages to reduce the waste impact.
+
+Here is a glimpse of the impact index that will display at the end of each order.
+
+![Impact Index](/Impact Index.png)
+
 ￼
 
 ### Reserach
@@ -102,11 +107,11 @@ After the sketches, I put together detailed wireframes of the red routes so I ca
 
 ![Wireframe](/Wireframes.png)
 
-### Userflows and Moodboard
+### Moodboard and User Flows
 
 While testing wireframes and looking for inspiration, I created the Moodboard.
 ![Moodboard](/Moodboard.png)
-I moved forward to build the user flows of red routes for the application.
+I moved forward to build the user flows of Critical Paths for the application.
 
 ![Userflows](/Userflows.png)
 
@@ -122,12 +127,12 @@ Once the mood was set, it was time to build out the Hi-fi prototype which was te
   <figcaption class="md-figure-caption">Pack Own Box</figcaption>
 </figure>
 
-### Lesson Learned
+### Lessons Learned
 
 Concluding the design and handing the prototypes to development team is not the end rather the beginning as I am currently overseeing new features through the feedback loop. Below are some of the great lessons I have learned:
 
 <ul style="list-style-type:disc">
          <li>Test more and often.</li>
-         <li>Keep tests iterating with different users as everyone suggests something different than other.</li>
+         <li>Keep iterating tests with different set of users as everyone suggests something different than other.</li>
          <li>Open ended and clear questions yield much better results.</li>
         <li>Design is a process which takes time and must be followed thoroughly from Research to Persona to Wireframes to testing and definitely keeping the feedback loop open.</li>

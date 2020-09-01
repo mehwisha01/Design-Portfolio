@@ -6,7 +6,7 @@ draft: false
 featured: true
 date: "2020-08-10T15:00:00.000Z"
 description: >-
-  Redesign of the user portal to increase ROI and User conversions.
+  Redesign of the user portal to increase ROI and User Conversion Rate.
 cover: "./EML.png"
 category: Test
 tags:
@@ -51,18 +51,18 @@ I started off with doing a Competitive Analysis of all ML platforms and here wer
 
 ### Persona
 
-<b>New User - Student(Beginner)</b>
-<b>Name:</b> Micaela King <br>
-<b>Age:</b> 18-28 yrs old <br>
-<b>Location:</b> Online <br>
+<b>New User:</b> <br> Student(Beginner)</br>
+<b>Name:</b> <br>Micaela King </br>
+<b>Age:</b> <br>18-28 yrs old </br>
+<b>Location:</b> <br>Online </br>
 
 <b>Motivations:</b>
-Data Science ML Assignments
+<br> Complete data Science/ML Assignments successfully.</br>
 
 <b>Pain Points:</b>
 
 <ul>
-<li>Hard to learn ML/DS</li>
+<li>Hard to learn ML/DS with algorithmic approach.</li>
 <li>Missing Assignments as need some solutions fast.</li>
 </ul>
 <b>Core Needs:</b>
@@ -73,17 +73,17 @@ Data Science ML Assignments
 
 <b>Registered User - Student (Advanced)</b><br>
 
-<b>Name: </b> John Smith <br>
-<b>Age: </b> 18-28 yrs old <br>
-<b>Location:</b> Online <br>
+<b>Name: </b> <br>John Smith </br>
+<b>Age: </b> <br>18-28 yrs old </br>
+<b>Location:</b> <br>Online </br>
 
 <b>Motivations:</b>
-See data prediction and accuracy
+<br>See data prediction and accuracy of models.</br>
 
 <b>Pain Points:</b>
 
-<ul><li>Tables are sophisticated</li>
-<li>Graphs don't make sense with the outliers</li>
+<ul><li>Tables are sophisticated to understand and interpret. </li>
+<li>Graphs don't make sense with the outliers. </li>
 </ul>
 
 <b>Core Needs:</b>
@@ -95,7 +95,7 @@ See data prediction and accuracy
 
 ### Old VS New Design
 
-<b>Old design screens 1-4</b>
+<b>Old design screens </b>
 ![Screen 1: Selection](/Old1.png)
 ![Screen 2: Detailed](/Old2.png)
 ![Screen 3: Upload Choice](/Old3.png)
@@ -107,8 +107,7 @@ See data prediction and accuracy
 ![Screen 9: Upload](/Old9.png)
 ![Screen 10: Upload](/Old10.png)
 ![Screen 11: Upload](/Old11.png)
-(....)
-Many more screens to get to Graphical representation.
+(....) many more screens to get to graphical representation.
 <br>I reduced the number of clicks which was causing users to be lost on steps.<br>
 
 <b>New Design</b>
@@ -122,12 +121,12 @@ Many more screens to get to Graphical representation.
 
 ### Testing Results
 
-I tested the prototypes with several users who had positive feedback on how easy the new design was to get the analysis. Everyone loved the search feature and buttons to add or remove outliers. The new design increased the ROI by 78% as there is still little more work left on the entire website redesign E2E.
+I tested the prototypes with several users who had positive feedback on how easy the new design was to get to the analysis. Everyone loved the search feature and buttons (add or remove outliers). The new design increased the ROI by 78% as there is still little more work left on the entire website redesign E2E.
 
 ### Lessons Learned
 
 When I was consulted for re-design, no documentations were given to me. I had to reverse engineer from the portal. I have made following recommendations for company to be successful:
 
-<ul><li> Documentations - Keep up with the docs as features are prioritized to understand the users' needs</li>
-<li> Data flows - These are very important as some screens weren't really needed </li>
-<li> Test with the end users more often since the feedback from users is very valuable</li></ul>
+<ul><li> Documentations - Keep up with the docs as features are prioritized to understand the users' needs.</li>
+<li> Data flows - These are very important as some screens weren't really needed. </li>
+<li> Test with the end users more often since the feedback from users is very valuable. </li></ul>
