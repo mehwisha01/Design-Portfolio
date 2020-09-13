@@ -27,7 +27,6 @@ const Contact = props => (
           <div className="BlackBox">
             <Input type="text" placeholder="Name " id="name" required />
           </div>
-
           <Input type="text" name="email" placeholder="Email" />
 
           <div className="field">
