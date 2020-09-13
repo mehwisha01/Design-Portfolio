@@ -8,6 +8,7 @@ import { rhythm } from "../../utils/typography";
 import { device } from "../../styles/constants";
 import { useAvatar } from "../../hooks";
 import GatsbyImage from "gatsby-image";
+import Contact from "../Contact/Contact";
 
 interface AboutProps {
   author: SiteSiteMetadataAuthor;
@@ -30,13 +31,11 @@ const About: React.FunctionComponent<AboutProps> = ({
           our lives, and I love to be involved in the design and development of
           purposeful applications.
         </p>
-
         <p>
           I contribute to the product life cycle with my comprehensive skills in
           web design and development, my growing knowledge of UX and interaction
           design, and my neverending hunger for growth.
         </p>
-
         <p>
           When not building stuff, I love to explore, read fascinating books,
           learn languages, write about my experiences in life, have amazing
@@ -44,7 +43,6 @@ const About: React.FunctionComponent<AboutProps> = ({
           positive habits. I believe they are the keys to unlock our full
           potential.
         </p>
-
         <p>
           Do you want to find out more about me? Please shoot me an email at{" "}
           <strong>{author.social.email}</strong> or reach out to me on social
@@ -57,36 +55,7 @@ const About: React.FunctionComponent<AboutProps> = ({
           </em>
         </p>
         <p> Feel Free to leave me a message: </p>
-        <p>
-          <form
-            name="contact-form"
-            method="POST"
-            data-netlify="true"
-            netlify-honeypot="bot-field"
-          >
-            <p>
-              <label>
-                <input type="text" placeholder="Your Name" name="name" />
-              </label>
-            </p>
-            <p>
-              <label>
-                <input type="email" placeholder="user@user.com" name="email" />
-              </label>
-            </p>
-            <p>
-              <label>
-                <textarea
-                  name="message"
-                  placeholder="Please feel free to ask me anything"
-                ></textarea>
-              </label>
-            </p>
-            <p>
-              <button type="submit">Send</button>
-            </p>
-          </form>
-        </p>
+        <Contact />
       </Description>
     </Root>
   );
