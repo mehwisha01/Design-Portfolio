@@ -55,7 +55,43 @@ const About: React.FunctionComponent<AboutProps> = ({
           </em>
         </p>
         <p> Feel Free to leave me a message: </p>
+<<<<<<< HEAD
         <Contact />
+=======
+        <div>
+        <p>
+          <form
+            name="contact-form"
+            method="POST"
+            data-netlify="true"
+            netlify-honeypot="bot-field"
+          >
+            
+            <p>
+              <label>
+                <input type="text" placeholder="Your Name" name="name" />
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="email" placeholder="user@user.com" name="email" />
+              </label>
+            </p>
+            <p>
+              <label>
+                <textarea
+                  name="message"
+                  placeholder="Please feel free to ask me anything"
+                ></textarea>
+              </label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+          </form>
+        </p>
+        </div>
+>>>>>>> de9e3d158822be3f9953f577840e76a65f5f481c
       </Description>
     </Root>
   );
