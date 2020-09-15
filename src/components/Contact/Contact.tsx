@@ -28,7 +28,6 @@ const Contact = props => (
             <Input type="text" placeholder="Name " id="name" required />
           </div>
           <Input type="text" name="email" placeholder="Email" />
-
           <div className="field">
             <Textarea
               type="textarea"
@@ -38,11 +37,7 @@ const Contact = props => (
               required
             />
           </div>
-
-          <br></br>
-
           {/* <ul className="actions"> */}
-
           <Input type="submit" value=" Submit" background-color="#555555" />
         </form>
       </section>
