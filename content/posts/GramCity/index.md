@@ -158,6 +158,6 @@ User 3: “Amazing colors, just not too easy on the eyes”. App does the job of
 User 4: “I like the app but is there a way I can turn off location and Notifications services. I don't like to get too many notifications from any apps”. The app does do the job of suggesting the sites and the distance if the user wants to pursue the ops area.
 User 5: “Great App, I want to be able to share the pictures from collages and what about the video uploads?”.
 
-## Lessons Learned : Sum it All Up
+## Sum it All Up
 
-At the end of day 5, users got the context of one feature path of the app, however, this path requires users to see the E2E process. Overall, feedback was great and new features like, video uploads, live feeds can be added in the next iteration.
+At the end of day 5, users got the context of one feature path of the app, however, this path requires users to see the E2E process. Overall, feedback was great and new features like, video uploads, live feeds can be added in the next Sprint.
