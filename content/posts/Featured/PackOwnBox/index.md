@@ -13,14 +13,16 @@ cover: "./Logo.png"
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/wthTmQHmuZ0" frameborder="0" allowfullscreen="true"> </iframe>
-  <figcaption class="md-figure-caption">Pack Own Box</figcaption>
+  <figcaption class="md-figure-caption"> Sustanability for Future</figcaption>
 </figure>
 
-While creating my content, I came across this video and realized the very planet we all call home is threatened by us. While playing the video, in the time of multitasking, I placed an order online. I looked for options from one store to another if I can actually make better choices with delivery methods and materials- which was always an issue with me to tie up and recycle.
+## Back Story
 
-And then finally the packages arrived. I looked at the boxes and started opening the biggest one first. Out came a dress with papers protecting sides, wrapped in a plastic bag in such a big box. I left the other boxes stored in my apartment for next few days as I was feeling lazy to recycle the mess with the first few boxes.
+While creating my content, I came across this video and realized the very planet we all call home is threatened by us. While playing the video, multitasking at the time, I placed an order online. I looked for options from one store to another if I can actually make better choices with delivery methods and materials (issue for me to tie up boxes and recycle).
 
-And finally, I realized, there has to be more choices given to consumers w.r.t delivery boxes, sizes and methods. We have to raise more awareness with the impact this waste is causing.
+And then finally the packages arrived. As I started opening the boxes, unusually large box with a tiny dress came filled with papers- presumably protecting sides and wrapped in a plastic bag. As always crunched with time and lazy to recycle, I left the other boxes stored in my apartment for next few days.
+
+And finally, I realized, there has to be more choices given to consumers for delivery boxes, sizes and methods. We have to raise more awareness with the impact this waste is causing.
 
 ### My Role
 
@@ -28,7 +30,7 @@ Founder and CEO - Product UX Designer
 
 ### Problem Statement
 
-In 2016, it cost New York City \$18 per ton more to collect and process recyclables. Yet, companies are still delivering packages in bigger than product's size boxes adding additonal waste. In 2020, we want consumer to have sustainable delivery options.
+In 2016, it cost New York City \$18 per ton or more to collect and process recyclables. Yet, companies are still delivering packages in bigger than product's size boxes adding additonal waste. In 2020, we want consumer to have sustainable delivery options.
 
 ### Description
 
@@ -127,12 +129,11 @@ Once the mood was set, it was time to build out the Hi-fi prototype which was te
   <figcaption class="md-figure-caption">Pack Own Box</figcaption>
 </figure>
 
-### Lessons Learned
+### New Features Requests
 
-Concluding the design and handing the prototypes to development team is not the end rather the beginning as I am currently overseeing new features through the feedback loop. Below are some of the great lessons I have learned:
+Concluding the design and handing the prototypes to development team is not the end rather the beginning as I am currently overseeing new features through the feedback loop. Below are some of the great features requested by users in product backlog:
 
 <ul style="list-style-type:disc">
-         <li>Test more and often.</li>
-         <li>Keep iterating tests with different set of users as everyone suggests something different than other.</li>
-         <li>Open ended and clear questions yield much better results.</li>
-        <li>Design is a process which takes time and must be followed thoroughly from Research to Persona to Wireframes to testing and definitely keeping the feedback loop open.</li>
+         <li>Add the impact on Pickup Orders.</li>
+         <li>Show some how-to videos for AR packaging so consumer know how to utilize maximum space.</li>
+         <li>Even if AR devices are not available, user should roughly see how the packages will be packed.</li>
