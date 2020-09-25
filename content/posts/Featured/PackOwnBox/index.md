@@ -1,5 +1,5 @@
 ---
-title: "Pack Own Box- E2E"
+title: "PackOwnBox- Sustainable Deliveries"
 template: post
 slug: Pack Your own delivery Box
 draft: false
