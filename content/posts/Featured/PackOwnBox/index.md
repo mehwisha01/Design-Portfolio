@@ -1,7 +1,7 @@
 ---
 title: "PackOwnBox- Sustainable Deliveries"
 template: post
-slug: Pack Your own delivery Box
+slug: Pack your own delivery box
 draft: false
 featured: false
 date: "2020-07-03T15:00:00.000Z"
