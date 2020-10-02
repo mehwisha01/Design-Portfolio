@@ -4,7 +4,7 @@ template: post
 slug: EazyML
 draft: false
 featured: true
-date: "2020-08-10T15:00:00.000Z"
+date: "2020-06-10T15:00:00.000Z"
 description: >-
   Redesign of the user portal to increase ROI and User Conversion Rate.
 cover: "./EML.png"
