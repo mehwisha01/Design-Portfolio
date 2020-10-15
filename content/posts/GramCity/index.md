@@ -3,7 +3,7 @@ title: Gram City - Design Sprint
 template: post
 slug: Gram City
 draft: false
-featured: false
+featured: true
 date: "2020-07-15T15:00:00.000Z"
 description: >-
   Never miss a great photo ops places to add to your precious memories while visiting  places.
@@ -14,14 +14,14 @@ tags:
   - Test
 ---
 
-## What is Design Sprint?
+## What is a Design Sprint?
 
 The sprint is a five-day process for answering critical business questions through design, prototyping, and testing ideas with customers. Developed at GV, it’s a “greatest hits” of business strategy, innovation, behavior science, design thinking, and more—packaged into a battle-tested process that any team can use.
 Want to <a href="https://www.gv.com/sprint/"> learn more...</a>
 
 ## Description
 
-This was one of the fun consulting project as a UX designer. Design sprint approach was taken for user onboarding.
+This was one of the fun consulting project as a UX Designer. Design sprint approach was taken for user onboarding.
 
 ### Background
 

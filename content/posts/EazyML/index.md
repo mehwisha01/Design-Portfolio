@@ -1,12 +1,12 @@
 ---
-title: "EazyML - Portal Redesign"
+title: "EazyML - User Research"
 template: post
 slug: EazyML
 draft: false
 featured: true
 date: "2020-01-10T15:00:00.000Z"
 description: >-
-  Redesign of the user portal to increase ROI and User Conversion Rate.
+  Research Users to increase the Conversion Rate.
 cover: "./EML.png"
 category: Test
 tags:
@@ -15,11 +15,11 @@ tags:
 
 ## Description
 
-As a UX Design consultant, I was tasked with redesigning the site to make it look more futuristic yet easy to use for new users.
+As a UX Design consultant, I was tasked with User Research to take User Centric approach to design.
 
 ### Competitive Analysis
 
-I started off with doing a Competitive Analysis of all ML platforms and here were some of the findings:
+I started off with doing a Competitive Analysis of all ML Platforms and here were some of the findings:
 
    <table style="width:100%">
      <tr>
@@ -102,6 +102,10 @@ Following measurements were utilized along with interviewing the users:
 <li> Latency : The amount of time it took to upload and get the possible solutions to their data. </li>
 <li> Goals: Were user able to get the quick solution without knowing much about Machine Learning. </li>
 
-This data helped recruit the users to interview and find out more about them.
+This data helped with recruiting the users for interviews to find out more.
 
 I created user flows to help development team to optimize the number of clicks. We conducted usability testing with the users and find more process improvement before launching the newly built design.
+
+### Outcomes
+
+The research was handed over to the team to do the quick wireframing and prototyping. With Research, we gained a good feedback which influenced the re-design of the portal. Usability Testing was incorporated at each step and added to Design Strategy.
