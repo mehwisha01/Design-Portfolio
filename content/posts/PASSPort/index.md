@@ -15,7 +15,9 @@ tags:
 
 ## Description
 
-PASSPort is a SAAS product to speed up the process for signing up Vendors and Agencies to procure quick services. This system has replaced city's old paper based system. PASSPort, the City's digital Procurement and Sourcing Solutions Portal, is about to roll out new features designed to make the procurement process easier, more transparent and accessible to all businesses.
+PASSPort is a SAAS product to speed up the process for signing up Vendors and Agencies to procure quick services. This system has replaced city's old paper based system.
+
+PASSPort, the City's digital Procurement and Sourcing Solutions Portal, is about to roll out new features designed to make the procurement process easier, more transparent and accessible to all businesses.
 
 Developed with and for vendors, along with City agencies, PASSPort leverages technology to address long-standing issues​ and support faster contract approval, more timely registration, and prompt approval of invoices and payment.
 
@@ -67,9 +69,13 @@ I created the prototype and conducted the test in a workshop and with bigger num
 
 ![Catalog : Upload](/catalog.png)
 
-The Approval Process- Final Design
+The Vendor Approval Process- Final Design
 
-![Workflow : Approval](/Final.png)
+![Workflow : Vendor Approval](/Final.png)
+
+The City's Approval process
+
+![Workflow : City's Approval](/Dashboard.png)
 
 ## In the Nutshell
 

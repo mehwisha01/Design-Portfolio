@@ -4,7 +4,7 @@ template: post
 slug: whats-my-story
 draft: false
 featured: true
-date: "2019-04-07T15:00:00.000Z"
+date: "2019-10-07T15:00:00.000Z"
 description: >-
   This post will give you a better understanding of the content I am going to
   put out and the ideas I am going to express.

@@ -4,7 +4,7 @@ template: post
 slug: EazyML
 draft: false
 featured: true
-date: "2020-06-10T15:00:00.000Z"
+date: "2020-01-10T15:00:00.000Z"
 description: >-
   Redesign of the user portal to increase ROI and User Conversion Rate.
 cover: "./EML.png"
@@ -93,40 +93,15 @@ I started off with doing a Competitive Analysis of all ML platforms and here wer
 <li>See data in a better tabular format.</li>
 </ul>
 
-### Old VS New Design
+### Quantitative/Qualitative Research
 
-<b>Old design screens </b>
-![Screen 1: Selection](/Old1.png)
-![Screen 2: Detailed](/Old2.png)
-![Screen 3: Upload Choice](/Old3.png)
-![Screen 4: Upload](/Old4.png)
-![Screen 5: Upload](/Old5.png)
-![Screen 6: Upload](/Old6.png)
-![Screen 7: Upload](/Old7.png)
-![Screen 8: Upload](/Old8.png)
-![Screen 9: Upload](/Old9.png)
-![Screen 10: Upload](/Old10.png)
-![Screen 11: Upload](/Old11.png)
-(....) many more screens to get to graphical representation.
-<br>I reduced the number of clicks which was causing users to be lost on steps.<br>
+Following measurements were utilized along with interviewing the users:
 
-<b>New Design</b>
-![Screen 1: Selection](/New1.png)
-![Screen 2: Import](/New2.png)
-![Screen 3: Import Instructions](/New3.png)
-![Screen 4: Table Format/Selections](/New4.png)
-![Screen 5: Popup](/New5.png)
-![Screen 6: Bar Graph](/New6.png)
-![Screen 7: Scatter Graphs](/New7.png)
+<ul>
+<li> Pageviews : To find out which pages were viewed by each user. We ranked the pages based on this. </li>
+<li> Latency : The amount of time it took to upload and get the possible solutions to their data. </li>
+<li> Goals: Were user able to get the quick solution without knowing much about Machine Learning. </li>
 
-### Testing Results
+This data helped recruit the users to interview and find out more about them.
 
-I tested the prototypes with several users who had positive feedback on how easy the new design was to get to the analysis. Everyone loved the search feature and buttons (add or remove outliers). The new design increased the ROI by 78% as there is still little more work left on the entire website redesign E2E.
-
-### Lessons Learned
-
-When I was consulted for re-design, no documentations were given to me. I had to reverse engineer from the portal. I have made following recommendations for company to be successful:
-
-<ul><li> Documentations - Keep up with the docs as features are prioritized to understand the users' needs.</li>
-<li> Data flows - These are very important as some screens weren't really needed. </li>
-<li> Test with the end users more often since the feedback from users is very valuable. </li></ul>
+I created user flows to help development team to optimize the number of clicks. We conducted usability testing with the users and find more process improvement before launching the newly built design.
