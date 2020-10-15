@@ -1,17 +1,16 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-import { Form, Input, Button, Text, Textarea } from "../Contact/theme";
-import success from "../Contact/thank-you";
+import { Input, Textarea } from "./theme";
 
-const Label = styled.label`
-  display: flex;
-  flex-direction: column;
-  color: #777;
-  font-family: "Raleway", sans-serif;
-  font-size: 0.8em;
-  margin: 0.5em 0;
-  position: relative;
-`;
+// const Label = styled.label`
+//   display: flex;
+//   flex-direction: column;
+//   color: #777;
+//   font-family: "Raleway", sans-serif;
+//   font-size: 0.8em;
+//   margin: 0.5em 0;
+//   position: relative;
+// `;
 const Contact = props => (
   <section id="contact">
     <div className="inner">
@@ -19,7 +18,7 @@ const Contact = props => (
         <form
           name="contact"
           method="post"
-          action="/success"
+          action="/Success"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >
@@ -37,8 +36,14 @@ const Contact = props => (
               required
             />
           </div>
-          {/* <ul className="actions"> */}
-          <Input type="submit" value=" Submit" background-color="#555555" />
+          <ul className="actions">
+            <li>
+              <input type="submit" value="Send Message" className="special" />
+            </li>
+            <li>
+              <input type="reset" value="Clear" />
+            </li>
+          </ul>
         </form>
       </section>
     </div>

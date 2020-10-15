@@ -1845,10 +1845,10 @@ export type Query = {
   allFile: FileConnection;
   directory?: Maybe<Directory>;
   allDirectory: DirectoryConnection;
-  sitePage?: Maybe<SitePage>;
-  allSitePage: SitePageConnection;
   site?: Maybe<Site>;
   allSite: SiteConnection;
+  sitePage?: Maybe<SitePage>;
+  allSitePage: SitePageConnection;
   markdownRemark?: Maybe<MarkdownRemark>;
   allMarkdownRemark: MarkdownRemarkConnection;
   imageSharp?: Maybe<ImageSharp>;
@@ -1961,6 +1961,28 @@ export type QueryAllDirectoryArgs = {
 };
 
 
+export type QuerySiteArgs = {
+  buildTime?: Maybe<DateQueryOperatorInput>;
+  siteMetadata?: Maybe<SiteSiteMetadataFilterInput>;
+  port?: Maybe<IntQueryOperatorInput>;
+  host?: Maybe<StringQueryOperatorInput>;
+  polyfill?: Maybe<BooleanQueryOperatorInput>;
+  pathPrefix?: Maybe<StringQueryOperatorInput>;
+  id?: Maybe<StringQueryOperatorInput>;
+  parent?: Maybe<NodeFilterInput>;
+  children?: Maybe<NodeFilterListInput>;
+  internal?: Maybe<InternalFilterInput>;
+};
+
+
+export type QueryAllSiteArgs = {
+  filter?: Maybe<SiteFilterInput>;
+  sort?: Maybe<SiteSortInput>;
+  skip?: Maybe<Scalars['Int']>;
+  limit?: Maybe<Scalars['Int']>;
+};
+
+
 export type QuerySitePageArgs = {
   path?: Maybe<StringQueryOperatorInput>;
   component?: Maybe<StringQueryOperatorInput>;
@@ -1982,28 +2004,6 @@ export type QuerySitePageArgs = {
 export type QueryAllSitePageArgs = {
   filter?: Maybe<SitePageFilterInput>;
   sort?: Maybe<SitePageSortInput>;
-  skip?: Maybe<Scalars['Int']>;
-  limit?: Maybe<Scalars['Int']>;
-};
-
-
-export type QuerySiteArgs = {
-  buildTime?: Maybe<DateQueryOperatorInput>;
-  siteMetadata?: Maybe<SiteSiteMetadataFilterInput>;
-  port?: Maybe<IntQueryOperatorInput>;
-  host?: Maybe<StringQueryOperatorInput>;
-  polyfill?: Maybe<BooleanQueryOperatorInput>;
-  pathPrefix?: Maybe<StringQueryOperatorInput>;
-  id?: Maybe<StringQueryOperatorInput>;
-  parent?: Maybe<NodeFilterInput>;
-  children?: Maybe<NodeFilterListInput>;
-  internal?: Maybe<InternalFilterInput>;
-};
-
-
-export type QueryAllSiteArgs = {
-  filter?: Maybe<SiteFilterInput>;
-  sort?: Maybe<SiteSortInput>;
   skip?: Maybe<Scalars['Int']>;
   limit?: Maybe<Scalars['Int']>;
 };
@@ -2311,12 +2311,12 @@ export type SiteEdge = {
 
 export type SiteFieldsEnum = 
   | 'buildTime'
-  | 'siteMetadata___copyright'
+  | 'siteMetadata___title'
   | 'siteMetadata___description'
+  | 'siteMetadata___copyright'
   | 'siteMetadata___googleAnalyticsId'
   | 'siteMetadata___pathPrefix'
   | 'siteMetadata___siteUrl'
-  | 'siteMetadata___title'
   | 'siteMetadata___author___birthDate'
   | 'siteMetadata___author___firstname'
   | 'siteMetadata___author___lastname'
@@ -2730,6 +2730,15 @@ export type SitePageFieldsEnum =
   | 'pluginCreator___pluginOptions___legacy'
   | 'pluginCreator___pluginOptions___theme_color_in_head'
   | 'pluginCreator___pluginOptions___cacheDigest'
+  | 'pluginCreator___pluginOptions___importWorkboxFrom'
+  | 'pluginCreator___pluginOptions___globDirectory'
+  | 'pluginCreator___pluginOptions___globPatterns'
+  | 'pluginCreator___pluginOptions___modifyUrlPrefix____'
+  | 'pluginCreator___pluginOptions___cacheId'
+  | 'pluginCreator___pluginOptions___runtimeCaching'
+  | 'pluginCreator___pluginOptions___runtimeCaching___handler'
+  | 'pluginCreator___pluginOptions___skipWaiting'
+  | 'pluginCreator___pluginOptions___clientsClaim'
   | 'pluginCreator___pluginOptions___pathToConfigModule'
   | 'pluginCreator___pluginOptions___dest'
   | 'pluginCreator___pluginOptions___pathCheck'
@@ -2953,6 +2962,15 @@ export type SitePluginFieldsEnum =
   | 'pluginOptions___legacy'
   | 'pluginOptions___theme_color_in_head'
   | 'pluginOptions___cacheDigest'
+  | 'pluginOptions___importWorkboxFrom'
+  | 'pluginOptions___globDirectory'
+  | 'pluginOptions___globPatterns'
+  | 'pluginOptions___modifyUrlPrefix____'
+  | 'pluginOptions___cacheId'
+  | 'pluginOptions___runtimeCaching'
+  | 'pluginOptions___runtimeCaching___handler'
+  | 'pluginOptions___skipWaiting'
+  | 'pluginOptions___clientsClaim'
   | 'pluginOptions___pathToConfigModule'
   | 'pluginOptions___dest'
   | 'pluginOptions___pathCheck'
@@ -3093,6 +3111,14 @@ export type SitePluginPluginOptions = {
   legacy?: Maybe<Scalars['Boolean']>;
   theme_color_in_head?: Maybe<Scalars['Boolean']>;
   cacheDigest?: Maybe<Scalars['String']>;
+  importWorkboxFrom?: Maybe<Scalars['String']>;
+  globDirectory?: Maybe<Scalars['String']>;
+  globPatterns?: Maybe<Array<Maybe<Scalars['String']>>>;
+  modifyUrlPrefix?: Maybe<SitePluginPluginOptionsModifyUrlPrefix>;
+  cacheId?: Maybe<Scalars['String']>;
+  runtimeCaching?: Maybe<Array<Maybe<SitePluginPluginOptionsRuntimeCaching>>>;
+  skipWaiting?: Maybe<Scalars['Boolean']>;
+  clientsClaim?: Maybe<Scalars['Boolean']>;
   pathToConfigModule?: Maybe<Scalars['String']>;
   dest?: Maybe<Scalars['String']>;
   pathCheck?: Maybe<Scalars['Boolean']>;
@@ -3118,9 +3144,26 @@ export type SitePluginPluginOptionsFilterInput = {
   legacy?: Maybe<BooleanQueryOperatorInput>;
   theme_color_in_head?: Maybe<BooleanQueryOperatorInput>;
   cacheDigest?: Maybe<StringQueryOperatorInput>;
+  importWorkboxFrom?: Maybe<StringQueryOperatorInput>;
+  globDirectory?: Maybe<StringQueryOperatorInput>;
+  globPatterns?: Maybe<StringQueryOperatorInput>;
+  modifyUrlPrefix?: Maybe<SitePluginPluginOptionsModifyUrlPrefixFilterInput>;
+  cacheId?: Maybe<StringQueryOperatorInput>;
+  runtimeCaching?: Maybe<SitePluginPluginOptionsRuntimeCachingFilterListInput>;
+  skipWaiting?: Maybe<BooleanQueryOperatorInput>;
+  clientsClaim?: Maybe<BooleanQueryOperatorInput>;
   pathToConfigModule?: Maybe<StringQueryOperatorInput>;
   dest?: Maybe<StringQueryOperatorInput>;
   pathCheck?: Maybe<BooleanQueryOperatorInput>;
+};
+
+export type SitePluginPluginOptionsModifyUrlPrefix = {
+  __typename?: 'SitePluginPluginOptionsModifyUrlPrefix';
+  _?: Maybe<Scalars['String']>;
+};
+
+export type SitePluginPluginOptionsModifyUrlPrefixFilterInput = {
+  _?: Maybe<StringQueryOperatorInput>;
 };
 
 export type SitePluginPluginOptionsPlugins = {
@@ -3165,6 +3208,19 @@ export type SitePluginPluginOptionsPluginsPluginOptionsFilterInput = {
   inlineCodeMarker?: Maybe<StringQueryOperatorInput>;
 };
 
+export type SitePluginPluginOptionsRuntimeCaching = {
+  __typename?: 'SitePluginPluginOptionsRuntimeCaching';
+  handler?: Maybe<Scalars['String']>;
+};
+
+export type SitePluginPluginOptionsRuntimeCachingFilterInput = {
+  handler?: Maybe<StringQueryOperatorInput>;
+};
+
+export type SitePluginPluginOptionsRuntimeCachingFilterListInput = {
+  elemMatch?: Maybe<SitePluginPluginOptionsRuntimeCachingFilterInput>;
+};
+
 export type SitePluginSortInput = {
   fields?: Maybe<Array<Maybe<SitePluginFieldsEnum>>>;
   order?: Maybe<Array<Maybe<SortOrderEnum>>>;
@@ -3172,12 +3228,12 @@ export type SitePluginSortInput = {
 
 export type SiteSiteMetadata = {
   __typename?: 'SiteSiteMetadata';
-  copyright?: Maybe<Scalars['String']>;
+  title?: Maybe<Scalars['String']>;
   description?: Maybe<Scalars['String']>;
+  copyright?: Maybe<Scalars['String']>;
   googleAnalyticsId?: Maybe<Scalars['String']>;
   pathPrefix?: Maybe<Scalars['String']>;
   siteUrl?: Maybe<Scalars['String']>;
-  title?: Maybe<Scalars['String']>;
   author?: Maybe<SiteSiteMetadataAuthor>;
 };
 
@@ -3258,12 +3314,12 @@ export type SiteSiteMetadataAuthorSocialFilterInput = {
 };
 
 export type SiteSiteMetadataFilterInput = {
-  copyright?: Maybe<StringQueryOperatorInput>;
+  title?: Maybe<StringQueryOperatorInput>;
   description?: Maybe<StringQueryOperatorInput>;
+  copyright?: Maybe<StringQueryOperatorInput>;
   googleAnalyticsId?: Maybe<StringQueryOperatorInput>;
   pathPrefix?: Maybe<StringQueryOperatorInput>;
   siteUrl?: Maybe<StringQueryOperatorInput>;
-  title?: Maybe<StringQueryOperatorInput>;
   author?: Maybe<SiteSiteMetadataAuthorFilterInput>;
 };
 

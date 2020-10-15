@@ -4,8 +4,11 @@ import { animated } from "react-spring";
 import { GatsbyLocation } from "local-types";
 import { MarkdownRemark } from "graphql-types";
 
+// eslint-disable-next-line import/extensions
 import Layout from "../components/Layout";
+// eslint-disable-next-line import/extensions
 import SEO from "../components/Seo";
+// eslint-disable-next-line import/extensions
 import Post from "../components/Post";
 import { useSiteMetadata, usePageTransitions } from "../hooks";
 

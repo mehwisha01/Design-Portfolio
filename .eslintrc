@@ -3,7 +3,8 @@
     "import/resolver": {
       "typescript": {},
       "node": {
-        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+        "extensions": [".js", ".jsx", ".ts", ".tsx", "png"],
+        " moduleDirectory": ["node_modules", "src/"]
       }
     },
     "react": {
@@ -46,9 +47,15 @@
     "class-methods-use-this": 0,
     "arrow-body-style": [2, "as-needed"],
     "arrow-parens": 0,
-    "import/no-extraneous-dependencies": [
+    "import/extensions": [
       "error",
+      "ignorePackages",
       {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never",
+        "png": "never",
         "devDependencies": true
       }
     ],
