@@ -6,7 +6,7 @@ draft: false
 featured: true
 date: "2020-06-10T15:00:00.000Z"
 description: >-
-  Reducing the paper process and having all information available in procuremnet Portal.
+  Reducing the paper based process and having transparency and visibility in NYC Contracts process.
 cover: "./Passport.png"
 category: Test
 tags:
