@@ -1,5 +1,5 @@
 ---
-title: "PASSPort- Procurement and Sourcing Solution"
+title: "PASSPort- Procurement and Sourcing Solutions Portal"
 template: post
 slug: Passport
 draft: false

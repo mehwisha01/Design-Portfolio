@@ -15,9 +15,11 @@ interface ShowcasedPostsContainerProps {
   posts: MarkdownRemarkEdge[];
 }
 
-const ShowcasedPostsContainer: React.FunctionComponent<
-  ShowcasedPostsContainerProps
-> = ({ location, title, posts }): React.ReactElement => (
+const ShowcasedPostsContainer: React.FunctionComponent<ShowcasedPostsContainerProps> = ({
+  location,
+  title,
+  posts,
+}): React.ReactElement => (
   <Root>
     <Title aria-label={`${title} posts section`}>{title}</Title>
 

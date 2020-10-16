@@ -54,8 +54,6 @@ const About: React.FunctionComponent<AboutProps> = ({
             <Link to="/resume">open to new adventures</Link>.)
           </em>
         </p>
-        <p> Feel Free to leave me a message: </p>
-        <Contact />
       </Description>
     </Root>
   );
