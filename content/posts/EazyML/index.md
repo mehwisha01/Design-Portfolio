@@ -4,7 +4,7 @@ template: post
 slug: EazyML
 draft: false
 featured: true
-date: "2020-01-10T15:00:00.000Z"
+date: "2018-01-10T15:00:00.000Z"
 description: >-
   Research Users to increase the Conversion Rate.
 cover: "./EML.png"

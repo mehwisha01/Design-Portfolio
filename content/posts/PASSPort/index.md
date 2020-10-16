@@ -4,7 +4,7 @@ template: post
 slug: Passport
 draft: false
 featured: true
-date: "2018-06-10T15:00:00.000Z"
+date: "2020-06-10T15:00:00.000Z"
 description: >-
   Reducing the paper process and having all information available in procuremnet Portal.
 cover: "./Passport.png"
