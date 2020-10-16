@@ -1,5 +1,5 @@
 {
-  "name": "Mehwish-Aziz-website",
+  "name": "Mehwish-Aziz-Website",
   "private": true,
   "description": "My Design Portfolio",
   "version": "0.1.0",
@@ -67,9 +67,9 @@
     "ts-jest": "^26.4.1",
     "typescript": "^3.5.3"
   },
-  "homepage": "https://robertistok.com",
+  "homepage": "https://mehwishaziz.netlify.app",
   "keywords": [
-    "robertistok"
+    "mehwishaziz"
   ],
   "license": "MIT",
   "main": "n/a",
