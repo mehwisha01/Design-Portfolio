@@ -2722,6 +2722,15 @@ export type SitePageFieldsEnum =
   | 'pluginCreator___pluginOptions___legacy'
   | 'pluginCreator___pluginOptions___theme_color_in_head'
   | 'pluginCreator___pluginOptions___cacheDigest'
+  | 'pluginCreator___pluginOptions___importWorkboxFrom'
+  | 'pluginCreator___pluginOptions___globDirectory'
+  | 'pluginCreator___pluginOptions___globPatterns'
+  | 'pluginCreator___pluginOptions___modifyUrlPrefix____'
+  | 'pluginCreator___pluginOptions___cacheId'
+  | 'pluginCreator___pluginOptions___runtimeCaching'
+  | 'pluginCreator___pluginOptions___runtimeCaching___handler'
+  | 'pluginCreator___pluginOptions___skipWaiting'
+  | 'pluginCreator___pluginOptions___clientsClaim'
   | 'pluginCreator___pluginOptions___pathToConfigModule'
   | 'pluginCreator___pluginOptions___dest'
   | 'pluginCreator___pluginOptions___pathCheck'
@@ -2945,6 +2954,15 @@ export type SitePluginFieldsEnum =
   | 'pluginOptions___legacy'
   | 'pluginOptions___theme_color_in_head'
   | 'pluginOptions___cacheDigest'
+  | 'pluginOptions___importWorkboxFrom'
+  | 'pluginOptions___globDirectory'
+  | 'pluginOptions___globPatterns'
+  | 'pluginOptions___modifyUrlPrefix____'
+  | 'pluginOptions___cacheId'
+  | 'pluginOptions___runtimeCaching'
+  | 'pluginOptions___runtimeCaching___handler'
+  | 'pluginOptions___skipWaiting'
+  | 'pluginOptions___clientsClaim'
   | 'pluginOptions___pathToConfigModule'
   | 'pluginOptions___dest'
   | 'pluginOptions___pathCheck'
@@ -3085,6 +3103,14 @@ export type SitePluginPluginOptions = {
   legacy?: Maybe<Scalars['Boolean']>;
   theme_color_in_head?: Maybe<Scalars['Boolean']>;
   cacheDigest?: Maybe<Scalars['String']>;
+  importWorkboxFrom?: Maybe<Scalars['String']>;
+  globDirectory?: Maybe<Scalars['String']>;
+  globPatterns?: Maybe<Array<Maybe<Scalars['String']>>>;
+  modifyUrlPrefix?: Maybe<SitePluginPluginOptionsModifyUrlPrefix>;
+  cacheId?: Maybe<Scalars['String']>;
+  runtimeCaching?: Maybe<Array<Maybe<SitePluginPluginOptionsRuntimeCaching>>>;
+  skipWaiting?: Maybe<Scalars['Boolean']>;
+  clientsClaim?: Maybe<Scalars['Boolean']>;
   pathToConfigModule?: Maybe<Scalars['String']>;
   dest?: Maybe<Scalars['String']>;
   pathCheck?: Maybe<Scalars['Boolean']>;
@@ -3110,9 +3136,26 @@ export type SitePluginPluginOptionsFilterInput = {
   legacy?: Maybe<BooleanQueryOperatorInput>;
   theme_color_in_head?: Maybe<BooleanQueryOperatorInput>;
   cacheDigest?: Maybe<StringQueryOperatorInput>;
+  importWorkboxFrom?: Maybe<StringQueryOperatorInput>;
+  globDirectory?: Maybe<StringQueryOperatorInput>;
+  globPatterns?: Maybe<StringQueryOperatorInput>;
+  modifyUrlPrefix?: Maybe<SitePluginPluginOptionsModifyUrlPrefixFilterInput>;
+  cacheId?: Maybe<StringQueryOperatorInput>;
+  runtimeCaching?: Maybe<SitePluginPluginOptionsRuntimeCachingFilterListInput>;
+  skipWaiting?: Maybe<BooleanQueryOperatorInput>;
+  clientsClaim?: Maybe<BooleanQueryOperatorInput>;
   pathToConfigModule?: Maybe<StringQueryOperatorInput>;
   dest?: Maybe<StringQueryOperatorInput>;
   pathCheck?: Maybe<BooleanQueryOperatorInput>;
+};
+
+export type SitePluginPluginOptionsModifyUrlPrefix = {
+  __typename?: 'SitePluginPluginOptionsModifyUrlPrefix';
+  _?: Maybe<Scalars['String']>;
+};
+
+export type SitePluginPluginOptionsModifyUrlPrefixFilterInput = {
+  _?: Maybe<StringQueryOperatorInput>;
 };
 
 export type SitePluginPluginOptionsPlugins = {
@@ -3155,6 +3198,19 @@ export type SitePluginPluginOptionsPluginsPluginOptionsFilterInput = {
   showCaptions?: Maybe<BooleanQueryOperatorInput>;
   wrapperStyle?: Maybe<StringQueryOperatorInput>;
   inlineCodeMarker?: Maybe<StringQueryOperatorInput>;
+};
+
+export type SitePluginPluginOptionsRuntimeCaching = {
+  __typename?: 'SitePluginPluginOptionsRuntimeCaching';
+  handler?: Maybe<Scalars['String']>;
+};
+
+export type SitePluginPluginOptionsRuntimeCachingFilterInput = {
+  handler?: Maybe<StringQueryOperatorInput>;
+};
+
+export type SitePluginPluginOptionsRuntimeCachingFilterListInput = {
+  elemMatch?: Maybe<SitePluginPluginOptionsRuntimeCachingFilterInput>;
 };
 
 export type SitePluginSortInput = {
