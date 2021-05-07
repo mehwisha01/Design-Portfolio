@@ -1,7 +1,7 @@
 ---
 title: FourQ
 template: post
-slug: Gram City
+slug: FourQ
 draft: false
 featured: true
 date: "2020-12-15T15:00:00.000Z"
@@ -18,6 +18,7 @@ tags:
 
 Lead Product Designer
 E2E User Experience/ Customer Experience
+B2B and B2C
 
 ## Description
 
