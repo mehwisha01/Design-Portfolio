@@ -83,6 +83,8 @@ Prototypes were absolutely crucial to our user experience as users including sta
 
 <a href="https://www.figma.com/file/SI5ZE4nKcGQSVyBB0x3duC/FourQ?node-id=783%3A0"> Product Upgrades </a>
 
+<a href = "https://www.figma.com/proto/SI5ZE4nKcGQSVyBB0x3duC/FourQ?node-id=791%3A0&scaling=min-zoom&page-id=783%3A0"> Clickable prototype </a>
+
 ## Journey Mapping
 
 With journey mapping, I was able to see the user flow and how we can create a brand with user loyalty.
