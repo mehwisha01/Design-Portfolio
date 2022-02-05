@@ -26,7 +26,7 @@ module.exports = {
       social: {
         email: "mehwishaziz2025@gmail.com",
         github: "mehwishaziz2025",
-        goodreads: "user/show/147282645-mehwish-aziz",
+        goodreads: "mehwish-aziz",
         instagram: "mehwishaziz",
         linkedin: "mehwish-aziz/",
         medium: "mehwishaziz",
