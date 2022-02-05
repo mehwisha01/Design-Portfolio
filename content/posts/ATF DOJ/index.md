@@ -1,12 +1,12 @@
 ---
-title: Career - ATF.gov
+title: ATF
 template: post
 slug: ATF
 draft: false
 featured: true
-date: "2021-12-21T09:00:00.000Z"
+date: "2022-02-01T15:00:00.000Z"
 description: >-
-Increasing diversity in the workplace by hiring Minority(BIPOC) Female Special Agents, IOI, Forensics and other professional Jobs.
+  Increasing diversity in the workplace by hiring Minority(BIPOC) Female Special Agents, IOI, Forensics and other professional Jobs.
 
 cover: "./ATF.png"
 category: Test
@@ -14,7 +14,7 @@ tags:
   - Test
 ---
 
-### **_ Note to Readers- This page will be updated as I make progress in increasing the visibilty of Careers site _**
+### ** <b>Note to Readers- This page will be updated as I make progress in increasing the visibilty of Careers site </b> **
 
 ## Problem Statement
 
@@ -41,22 +41,42 @@ Before contributing further into the project, I wanted to see how the informatio
 
 ![Career Information Architecture](/IA.png)
 
-IA table with Taxonomy <a href="https://docs.google.com/spreadsheets/d/1NyfovFWwte2TSepiyUgaRW39Pir8ph2P22ehgW6ihPQ/edit?usp=sharing">
+<a href="https://docs.google.com/spreadsheets/d/1NyfovFWwte2TSepiyUgaRW39Pir8ph2P22ehgW6ihPQ/edit?usp=sharing"> Information Architecture Deatils </a>
 
-<b> Findings</b> I found many pages were either not updated and didn't follow the proper Taxonomy. There was Repitition and we can make IA much simpler.
+<b> Findings</b>
+
+I found many pages were either not updated and didn't follow the proper Taxonomy. There were repititive and broken links found, therefore, less Engagement from Users.
 
 Card Sorting - Schedule - TBD
+
+### Empathy Maps
+
+There are 5 Personas identified but due to NDA, I am only allowed to give a glimpse of one of the Empathy Map.
+<a href="https://www.figma.com/file/0VwkuIENI7DlAw44THEC0B/Empathy-Maps?node-id=3%3A2"> The Champion </a>
 
 ### User Interviews
 
 I am currently conducting interviews with the recent hired candidates to find their recruitment and hiring process experience.
 
+<a href="https://docs.google.com/document/d/1SKZ-c7qpGyUi0I1XkuTnMFvOaGbRDK6a/edit?usp=sharing&ouid=102398097035211476627&rtpof=true&sd=true"> Sample Screener </a>
+
 <b> Key Insights </b>
 
 <ol> 
-<li>The application process takes too long </li>
-<li> There is too much information to read on career pages </li>
-<li> Very little mention on Diversity and Culture </li>
-<li> Missing the journey of recent hire or what the job looks like daily - user prefer to watch videos rather than reading </li>
+<li> <i>"The application process takes too long." </i></li>
+<li> <i> "There is too much information to read on career pages" </i> </li>
+<li> <i> "Very little or no mention on Diversity and Inclusivity" </i> </li>
+<li> <i> "Missing the journey of recent hire or what the job looks like daily - user prefer to watch videos rather than reading" </i> </li>
+</ol>
 
-### Personas
+### Upcoming Items - Tune in for more
+
+<ul> 
+<li> Content Strategy </li>
+<li> Basline Testing Insights </li>
+<li> Wireframes</li>
+<li> Prototypes </li>
+<li> User Testing</li>
+<li> Quantitative data Analysis </li>
+<li> Post Go-Live </li>
+</ul>

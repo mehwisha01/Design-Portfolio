@@ -12,10 +12,10 @@ module.exports = {
       firstname: "Mehwish",
       lastname: "Aziz",
       name: "Mehwish Aziz",
-      title: "Product/UX Designer",
+      title: "Lead Product Designer/UX Architect",
       descriptions: {
         intro:
-          "I am a UX Designer, developer and an Innovator, passionate about building human centered products.",
+          "I am a hands-on Lead Product Designer/UX Architect, developer and an Innovator, passionate about building human centered products.",
       },
       assets: {
         icon: "mehwishaziz_avatar_rounded.png",
@@ -26,7 +26,7 @@ module.exports = {
       social: {
         email: "mehwishaziz2025@gmail.com",
         github: "mehwishaziz2025",
-        goodreads: "mehwishaziz",
+        goodreads: "user/show/147282645-mehwish-aziz",
         instagram: "mehwishaziz",
         linkedin: "mehwish-aziz/",
         medium: "mehwishaziz",
