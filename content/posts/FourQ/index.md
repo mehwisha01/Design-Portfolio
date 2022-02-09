@@ -76,23 +76,19 @@ There was lots of feedback in terms of adding additional features and I was happ
 
 ## Prototyping
 
-These prototypes were created and tested by different set of users while incorporating their feedback in the next iteration. Due to legal concers, full prototypes are not shared on these Figma links.
+These prototypes were created and tested by different set of users while incorporating their feedback in the next iteration. Due to NDA, full prototypes are not shared on these Figma links.
 
 <a href="https://www.figma.com/file/IzidIlQNitVbmqoIbVPl5D/OneBiller?node-id=0%3A1">Figma Link </a>
 
-<a href="https://www.figma.com/file/SI5ZE4nKcGQSVyBB0x3duC/FourQ?node-id=783%3A0"> Product Upgrades </a>
-
-<a href = "https://www.figma.com/proto/SI5ZE4nKcGQSVyBB0x3duC/FourQ?node-id=2443%3A0&scaling=min-zoom&page-id=2259%3A2098&starting-point-node-id=2259%3A2099"> Clickable prototype </a>
+<a href = "https://www.figma.com/file/IzidIlQNitVbmqoIbVPl5D/OneBiller?node-id=105%3A8511"> Clickable prototype </a>
 
 <a href = "https://www.figma.com/file/ViAQgeCRqZbHmXVVmKPsHP/Four-Q-WIP?node-id=2071%3A5911"> Report Dashboard </a>
-
-<a href = "https://www.figma.com/file/SI5ZE4nKcGQSVyBB0x3duC/FourQ?node-id=4219%3A24704"> Product based Report </a>
 
 ## Journey Mapping
 
 With journey mapping, I was able to see the user flow and how we can create a brand with user loyalty.
 
-<a href ="https://www.figma.com/file/SI5ZE4nKcGQSVyBB0x3duC/FourQ?node-id=1847%3A1830"> Journey Maps </a>
+<a href ="https://www.figma.com/file/IzidIlQNitVbmqoIbVPl5D/OneBiller?node-id=105%3A9327"> Journey Maps </a>
 
 ## Usability Testing
 
