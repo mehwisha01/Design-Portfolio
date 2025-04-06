@@ -1,4 +1,4 @@
-{
+/*{
   "compilerOptions": {
     "jsx": "react",
     "esModuleInterop": true,
@@ -11,4 +11,4 @@
     }
   },
   "include": ["**/*.ts", "**/*.tsx"]
-}
+}*/
